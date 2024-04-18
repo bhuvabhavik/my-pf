@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
-import './App.css';
-import Page from './rout/page';
+import "./App.css";
+import Page from "./route/page";
 
 function App() {
   return (
-    <div >
-       <Page/>
+    <div>
+      <Page />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
