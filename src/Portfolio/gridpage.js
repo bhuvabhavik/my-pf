@@ -9,14 +9,11 @@ import Typography from '@mui/material/Typography';
 import FolderCopyOutlinedIcon from '@mui/icons-material/FolderCopyOutlined';
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
 import FolderOutlinedIcon from '@mui/icons-material/FolderOutlined';
-import Display from './Pages/cmbc';
 import { Link, Outlet } from 'react-router-dom';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import{useMediaQuery} from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-
 
 
 const backgroundColor = 'rgba(53, 74, 95, 1)'; // Define the color variable
@@ -55,17 +52,17 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: `1px solid ${backgroundColor}`, // Set border color
 }));
 
-const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
-  p: 4,
-};
+// const style = {
+//   position: 'absolute',
+//   top: '50%',
+//   left: '50%',
+//   transform: 'translate(-50%, -50%)',
+//   width: 400,
+//   bgcolor: 'background.paper',
+//   border: '2px solid #000',
+//   boxShadow: 24,
+//   p: 4,
+// };
 
 
 
